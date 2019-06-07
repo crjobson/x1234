@@ -1,0 +1,53 @@
+
+<div id="mySimpleTemplate" data-type="text/x-handlebars-template">
+    <div class="myTemplate" style="padding:16px;">
+        <br style="float: left;">
+        <div class="listitem" style="display: inline-block;">
+            <div class="listitem">
+                <span style="font-weight:normal;float:left;font-size:12px">
+                    Attachments
+                </span>
+                <br>
+                <span class="listitem-value">
+                    {{dataSets.[0].data.d.TaskSupports.Attachments}}
+                </span>
+            </div>
+            <div class="listitem">
+                <span style="font-weight:normal;float:left;font-size:12px">
+                    CreatedByDetails
+                </span>
+                <br>
+                <span class="listitem-value">
+                    {{dataSets.[0].data.d.TaskSupports.CreatedByDetails}}
+                </span>
+            </div>
+            <div class="listitem">
+                <span style="font-weight:normal;float:left;font-size:12px;">
+                    ProcessorDetails
+                </span>
+                <br>
+                <span class="listitem-value">
+                    {{dataSets.[0].data.d.TaskSupports.ProcessorDetails}}
+                </span>
+            </div>
+        </div>
+        <div class="listitem" style="padding-top: 28px;">
+            <span style="font-weight:normal;float:left;font-size:12px">
+                Possible Agents
+            </span>
+            <br>
+            <span class="listitem-value">
+                {{dataSets.[0].data.d.TaskSupports.PossibleAgents}}
+            </span>
+        </div>
+        <div class="listitem">
+            <span style="font-weight:normal;float:left;font-size:12px">
+                ProcessingLogs
+            </span>
+            <br>
+            <span class="listitem-value">
+                {{dataSets.[0].data.d.TaskSupports.ProcessingLogs}}
+            </span>
+        </div>
+    </div>
+</div>

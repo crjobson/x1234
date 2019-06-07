@@ -1,0 +1,47 @@
+.myTemplate {
+    height: 100vh;
+    background: linear-gradient(to bottom, #3C607C, #6693B0);
+    color: #CEDDEC;
+    font-family: Helvetica;
+}
+
+.header {
+    background-color: #none;
+    height: 40px;
+    padding: 16px;
+}
+
+.card-content {
+    padding: 16px;
+}
+
+.listitem {
+    font-size: 12px;
+    font-weight: normal;
+    text-align: left;
+    background-color: none;
+    height: 40px;
+    padding-top: 18px;
+    line-height: 18px;
+}
+
+.listitem-availability {
+    font-size: 17px;
+    color: #BEDAC3;
+    font-weight: bold;
+    float: left;
+    padding-right: 16px;
+}
+
+.listitem:first-of-type {}
+
+.listitem-label {
+    float: left;
+}
+
+.listitem-value {
+    color: #fafafa;
+    font-size: 17px;
+    float: left;
+    padding-right: 16px;
+}

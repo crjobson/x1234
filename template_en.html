@@ -1,0 +1,98 @@
+
+<div id="mySimpleTemplate" class="myTemplate" data-type="text/x-handlebars-template">
+    <div class="header" style="height: 30px">
+        <div style="text-align: left;">
+            <span style="font-weight: bold; font-size: 24px; float: left; color: #ffffff; display: inline; padding-top: 8px">
+                {{dataSets.[0].data.d.TaskDefinitionName}}
+            </span>
+        </div>
+        <div style="text-align: right;">
+            <span style="float: right; display: inline; font-size: 11px; color:#CEDDEC; padding-top: 5px">
+                {{dataSets.[0].data.d.TaskTitle}}
+            </span>
+        </div>
+        <div style="text-align: right;">
+            <span style="float: right; clear: right; display: inline; font-size: 17px; color: #fafafa; padding-top: 4px">
+                {{dataSets.[0].data.d.TaskTitle}}
+            </span>
+        </div>
+    </div>
+    <div class="card-content">
+        <div class="listitem">
+            <div class="listitem-label">
+                <span>
+                    Created By
+                </span>
+            </div>
+            <br>
+            <div class="listitem-value">
+                <span>
+                    {{dataSets.[0].data.d.CreatedBy}}
+                </span>
+            </div>
+        </div>
+        <div class="listitem">
+            <div class="listitem-label">
+                <span>
+                    Priority
+                </span>
+            </div>
+            <br>
+            <div class="listitem-value">
+                <span>
+                    {{dataSets.[0].data.d.Priority}}
+                </span>
+            </div>
+        </div>
+        <div class="listitem">
+            <div class="listitem-label">
+                <span>
+                    Status
+                </span>
+            </div>
+            <br>
+            <div class="listitem-value">
+                <span>
+                    {{dataSets.[0].data.d.Status}}
+                </span>
+            </div>
+        </div>
+        <div class="listitem">
+            <div class="listitem-label">
+                <span>
+                    Processor
+                </span>
+            </div>
+            <br>
+            <div class="listitem-value">
+                <span>
+                    {{dataSets.[0].data.d.Processor}}
+                </span>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="listitem">
+            <div class="listitem-label">
+                <span>
+                    Availability
+                </span>
+            </div>
+            <br>
+            <div class="listitem-availability">
+                <span>
+                    {{dataSets.[0].data.d.Description.description}}
+                </span>
+            </div>
+        </div>
+        {{#each dataSets.[0].data.d.CustomAttributeData.results}}
+        <div style="clear:left; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;">
+            <span style="float:left; width:40%; text-align:left; font-weight:bold; text-overflow:ellipsis; overflow:hidden; white-space:nowrap">
+                {{Name}}
+            </span>
+            &nbsp; 
+            {{Value}}
+        </div>
+    {{/each}}
+    </div>
+</div>

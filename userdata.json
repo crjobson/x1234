@@ -1,0 +1,238 @@
+{
+	"dataSets": [{
+		"resourceIdentifier": "/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/TaskCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994')",
+		"data": {
+			"d": {
+				"__metadata": {
+					"id": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/TaskCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994')",
+					"uri": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/TaskCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994')",
+					"type": "TASKPROCESSING.Task",
+					"content_type": "application/octet-stream",
+					"media_src": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/TaskCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994')/$value"
+				},
+				"TaskSupports": {
+					"__metadata": {
+						"type": "TASKPROCESSING.TaskSupports"
+					},
+					"AddAttachments": false,
+					"AddComments": false,
+					"Attachments": true,
+					"Comments": true,
+					"CreatedByDetails": true,
+					"CustomAttributeData": true,
+					"Description": true,
+					"PossibleAgents": true,
+					"PotentialOwners": true,
+					"ProcessingLogs": true,
+					"ProcessorDetails": true,
+					"TaskDefinitionData": true,
+					"TaskObject": true,
+					"UIExecutionLink": false,
+					"CancelResubmission": false,
+					"Confirm": false,
+					"Claim": false,
+					"Forward": true,
+					"Release": false,
+					"Resubmit": false,
+					"SetPriority": false
+				},
+				"SAP__Origin": "EC3_800_BWF",
+				"InstanceID": "000002329994",
+				"TaskDefinitionID": "TS20000172",
+				"TaskDefinitionName": "Purchase Contract",
+				"TaskTitle": "Release of contract 4600014610",
+				"Priority": "MEDIUM",
+				"Status": "COMPLETED",
+				"StatusText": "",
+				"CreatedOn": "/Date(1496891633000)/",
+				"CreatedBy": "WF-BATCH",
+				"CreatedByName": "Workflow-System",
+				"Processor": "PURCHMANAGER",
+				"ProcessorName": "Jeremy PURCHMANAGER",
+				"SubstitutedUser": "",
+				"SubstitutedUserName": "",
+				"StartDeadLine": null,
+				"CompletionDeadLine": null,
+				"ExpiryDate": null,
+				"IsEscalated": false,
+				"SupportsComments": true,
+				"HasComments": false,
+				"SupportsAttachments": true,
+				"HasAttachments": false,
+				"HasPotentialOwners": false,
+				"SupportsClaim": false,
+				"SupportsRelease": false,
+				"SupportsForward": true,
+				"mime_type": "",
+				"PriorityNumber": 5,
+				"ScenarioID": "",
+				"ForwardingUser": "",
+				"ForwardingUserName": "",
+				"TaskDefinitionData": {
+					"__deferred": {
+						"uri": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/TaskCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994')/TaskDefinitionData"
+					}
+				},
+				"Description": {
+					"__metadata": {
+						"id": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/TaskDescriptionCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994')",
+						"uri": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/TaskDescriptionCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994')",
+						"type": "TASKPROCESSING.TaskDescription"
+					},
+					"SAP__Origin": "EC3_800_BWF",
+					"InstanceID": "000002329994",
+					"Description": "",
+					"DescriptionAsHtml": ""
+				},
+				"UIExecutionLink": {
+					"__deferred": {
+						"uri": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/TaskCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994')/UIExecutionLink"
+					}
+				},
+				"CustomAttributeData": {
+					"results": [{
+						"__metadata": {
+							"id": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/CustomAttributeCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994',Name='Purchase%20Contract')",
+							"uri": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/CustomAttributeCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994',Name='Purchase%20Contract')",
+							"type": "TASKPROCESSING.CustomAttribute"
+						},
+						"SAP__Origin": "EC3_800_BWF",
+						"InstanceID": "000002329994",
+						"Name": "Purchase Contract",
+						"Value": "4600014610"
+					}, {
+						"__metadata": {
+							"id": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/CustomAttributeCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994',Name='Vendor')",
+							"uri": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/CustomAttributeCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994',Name='Vendor')",
+							"type": "TASKPROCESSING.CustomAttribute"
+						},
+						"SAP__Origin": "EC3_800_BWF",
+						"InstanceID": "000002329994",
+						"Name": "Vendor",
+						"Value": "NALA-3001"
+					}, {
+						"__metadata": {
+							"id": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/CustomAttributeCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994',Name='Vendor%20Name')",
+							"uri": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/CustomAttributeCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994',Name='Vendor%20Name')",
+							"type": "TASKPROCESSING.CustomAttribute"
+						},
+						"SAP__Origin": "EC3_800_BWF",
+						"InstanceID": "000002329994",
+						"Name": "Vendor Name",
+						"Value": "Televista Inc."
+					}, {
+						"__metadata": {
+							"id": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/CustomAttributeCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994',Name='Item%20No')",
+							"uri": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/CustomAttributeCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994',Name='Item%20No')",
+							"type": "TASKPROCESSING.CustomAttribute"
+						},
+						"SAP__Origin": "EC3_800_BWF",
+						"InstanceID": "000002329994",
+						"Name": "Item No",
+						"Value": "00010"
+					}, {
+						"__metadata": {
+							"id": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/CustomAttributeCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994',Name='Material')",
+							"uri": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/CustomAttributeCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994',Name='Material')",
+							"type": "TASKPROCESSING.CustomAttribute"
+						},
+						"SAP__Origin": "EC3_800_BWF",
+						"InstanceID": "000002329994",
+						"Name": "Material",
+						"Value": "PROC-OS-WB-0250"
+					}, {
+						"__metadata": {
+							"id": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/CustomAttributeCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994',Name='Description')",
+							"uri": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/CustomAttributeCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994',Name='Description')",
+							"type": "TASKPROCESSING.CustomAttribute"
+						},
+						"SAP__Origin": "EC3_800_BWF",
+						"InstanceID": "000002329994",
+						"Name": "Description",
+						"Value": "White board 250cms"
+					}, {
+						"__metadata": {
+							"id": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/CustomAttributeCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994',Name='Quantity')",
+							"uri": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/CustomAttributeCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994',Name='Quantity')",
+							"type": "TASKPROCESSING.CustomAttribute"
+						},
+						"SAP__Origin": "EC3_800_BWF",
+						"InstanceID": "000002329994",
+						"Name": "Quantity",
+						"Value": "10.000 "
+					}, {
+						"__metadata": {
+							"id": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/CustomAttributeCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994',Name='Unit')",
+							"uri": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/CustomAttributeCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994',Name='Unit')",
+							"type": "TASKPROCESSING.CustomAttribute"
+						},
+						"SAP__Origin": "EC3_800_BWF",
+						"InstanceID": "000002329994",
+						"Name": "Unit",
+						"Value": "EA"
+					}, {
+						"__metadata": {
+							"id": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/CustomAttributeCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994',Name='Net%20Price')",
+							"uri": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/CustomAttributeCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994',Name='Net%20Price')",
+							"type": "TASKPROCESSING.CustomAttribute"
+						},
+						"SAP__Origin": "EC3_800_BWF",
+						"InstanceID": "000002329994",
+						"Name": "Net Price",
+						"Value": "25.0000 "
+					}, {
+						"__metadata": {
+							"id": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/CustomAttributeCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994',Name='Curr')",
+							"uri": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/CustomAttributeCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994',Name='Curr')",
+							"type": "TASKPROCESSING.CustomAttribute"
+						},
+						"SAP__Origin": "EC3_800_BWF",
+						"InstanceID": "000002329994",
+						"Name": "Curr",
+						"Value": "USD"
+					}]
+				},
+				"Comments": {
+					"__deferred": {
+						"uri": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/TaskCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994')/Comments"
+					}
+				},
+				"Attachments": {
+					"__deferred": {
+						"uri": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/TaskCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994')/Attachments"
+					}
+				},
+				"CreatedByDetails": {
+					"__deferred": {
+						"uri": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/TaskCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994')/CreatedByDetails"
+					}
+				},
+				"ProcessorDetails": {
+					"__deferred": {
+						"uri": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/TaskCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994')/ProcessorDetails"
+					}
+				},
+				"PossibleAgents": {
+					"__deferred": {
+						"uri": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/TaskCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994')/PossibleAgents"
+					}
+				},
+				"PotentialOwners": {
+					"__deferred": {
+						"uri": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/TaskCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994')/PotentialOwners"
+					}
+				},
+				"ProcessingLogs": {
+					"__deferred": {
+						"uri": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/TaskCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994')/ProcessingLogs"
+					}
+				},
+				"TaskObjects": {
+					"__deferred": {
+						"uri": "https://flpnwc-a6818cee3.dispatcher.hana.ondemand.com/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/TaskCollection(SAP__Origin='EC3_800_BWF',InstanceID='000002329994')/TaskObjects"
+					}
+				}
+			}
+		}
+	}]
+}
