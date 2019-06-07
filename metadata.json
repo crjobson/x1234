@@ -1,43 +1,56 @@
 {
 	"APNSEnabled": true,
 	"ActionConfiguration": {
-		"Actions": [{
-			"ActionBody": "",
-			"ActionHeaders": [{
-				"HeaderName": "X-Requested-With",
-				"HeaderValue": "XMLHttpRequest"
-			}],
-			"ActionName": "ACTION",
-			"ActionParameters": [{
-				"isKey": false,
-				"label": [{
-					"language": "EN",
-					"text": "Comments"
-				}],
-				"maxLength": 255,
-				"name": "comments",
-				"nullable": true,
-				"type": "Edm.String"
-			}, {
-				"defaultValue": "",
-				"enabledForDeviceNotification": false,
-				"isKey": false,
-				"label": [{
-					"language": "EN",
-					"text": ""
-				}],
-				"maxLength": 255,
-				"name": "decisionKey",
-				"nullable": true,
-				"type": "Edm.String"
-			}],
-			"ActionUrl": "/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/Decision?SAP__Origin='${ID1}'&InstanceID='${ID2}'&DecisionKey='${decisionKey}'&Comments='${comments}'",
-			"HttpMethod": "POST",
-			"Labels": [{
-				"language": "EN",
-				"text": "accept"
-			}]
-		}],
+		"Actions": [
+			{
+				"ActionBody": "",
+				"ActionHeaders": [
+					{
+						"HeaderName": "X-Requested-With",
+						"HeaderValue": "XMLHttpRequest"
+					}
+				],
+				"ActionName": "ACTION",
+				"ActionParameters": [
+					{
+						"isKey": false,
+						"label": [
+							{
+								"language": "EN",
+								"text": "Comments"
+							}
+						],
+						"maxLength": 255,
+						"name": "comments",
+						"nullable": true,
+						"type": "Edm.String"
+					},
+					{
+						"defaultValue": "",
+						"enabledForDeviceNotification": false,
+						"isKey": false,
+						"label": [
+							{
+								"language": "EN",
+								"text": ""
+							}
+						],
+						"maxLength": 255,
+						"name": "decisionKey",
+						"nullable": true,
+						"type": "Edm.String"
+					}
+				],
+				"ActionUrl": "/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/Decision?SAP__Origin='${ID1}'&InstanceID='${ID2}'&DecisionKey='${decisionKey}'&Comments='${comments}'",
+				"HttpMethod": "POST",
+				"Labels": [
+					{
+						"language": "EN",
+						"text": "accept"
+					}
+				]
+			}
+		],
 		"BehaviorAfterAction": "INACTIVE",
 		"Category": "ACCEPT_REJECT",
 		"XCSRFTokenUrl": "/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/"
@@ -49,10 +62,12 @@
 	"Connection": "FLP",
 	"CustomType": "Query",
 	"DescriptionEnglish": "Unified Inbox - Query Based Collection Only",
-	"Descriptions": [{
-		"language": "EN",
-		"text": "Unified Inbox - Query Based Collection Only"
-	}],
+	"Descriptions": [
+		{
+			"language": "EN",
+			"text": "Unified Inbox - Query Based Collection Only"
+		}
+	],
 	"DevelopmentStatus": "Development",
 	"GatekeeperConfiguration": null,
 	"GroupName": null,
@@ -60,30 +75,36 @@
 	"LastModifiedAt": "2019-04-09T06:50:10.706Z",
 	"LastModifiedBy": "D055066",
 	"Locked": false,
-	"Name": "UnifiedInbox_UPDATED",
+	"Name": "UnifiedInbox_UPDATED_new",
 	"NewsEnabled": false,
 	"NotificationMessages": {
-		"Messages": [{
-			"language": "EN",
-			"notificationType": "NEW",
-			"text": "A new item is ready for your approval in your Inbox: ${taskname} - ${tasktitle}"
-		}]
+		"Messages": [
+			{
+				"language": "EN",
+				"notificationType": "NEW",
+				"text": "A new item is ready for your approval in your Inbox: ${taskname} - ${tasktitle}"
+			}
+		]
 	},
-	"NotificationRules": [],
+	"NotificationRules": [
+	],
 	"Parameters": {
-		"Parameters": [{
-			"Name": "tasktitle",
-			"Propagate": false,
-			"ResourceOrderNumber": 0,
-			"Value": "$.d.TaskTitle",
-			"displayName": "tasktitle"
-		}, {
-			"Name": "taskname",
-			"Propagate": false,
-			"ResourceOrderNumber": 0,
-			"Value": "$.d.TaskDefinitionName",
-			"displayName": "taskname"
-		}]
+		"Parameters": [
+			{
+				"Name": "tasktitle",
+				"Propagate": false,
+				"ResourceOrderNumber": 0,
+				"Value": "$.d.TaskTitle",
+				"displayName": "tasktitle"
+			},
+			{
+				"Name": "taskname",
+				"Propagate": false,
+				"ResourceOrderNumber": 0,
+				"Value": "$.d.TaskDefinitionName",
+				"displayName": "taskname"
+			}
+		]
 	},
 	"QueryConfiguration": {
 		"CacheQueryResult": false,
@@ -95,19 +116,23 @@
 	"QueryReturnsEntityCollection": true,
 	"QueryURL": "/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/TaskCollection?$skip=0&$top=10&$orderby=CreatedOn%20desc&$filter=((Status%20eq%20'RESERVED'))&$expand=Description,CustomAttributeData",
 	"ReferenceCardTypeId": null,
-	"ResourceIdentifiers": [{
-		"ImagePaths": "",
-		"Order": 0,
-		"Uri": ""
-	}, {
-		"ImagePaths": null,
-		"Order": 1,
-		"Shared": false,
-		"Uri": "/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/DecisionOptions?SAP__Origin='${ID1}'&InstanceID='${ID2}'"
-	}],
+	"ResourceIdentifiers": [
+		{
+			"ImagePaths": "",
+			"Order": 0,
+			"Uri": ""
+		},
+		{
+			"ImagePaths": null,
+			"Order": 1,
+			"Shared": false,
+			"Uri": "/sap/fiori/crossfndfioriinbox/sap/opu/odata/IWPGW/TASKPROCESSING;mo;v=2/DecisionOptions?SAP__Origin='${ID1}'&InstanceID='${ID2}'"
+		}
+	],
 	"SortCardsWith": null,
 	"SubscribableTo": {
-		"Users": []
+		"Users": [
+		]
 	},
 	"SubscribableToValidationEnabled": false,
 	"TemplateName": "User defined template",
